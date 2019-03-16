@@ -1,0 +1,19 @@
+<div *ngIf="user">
+
+<!--element för att skriva ut data om användaren -->
+<p>
+User is: {{user.username}}
+</p>
+<p>
+Name: {{user.name}}
+</p>
+<p>
+Street: {{user.address.street}}
+</p>
+<p>
+Zipcode: {{user.address.zipcode}}
+</p>
+<p>
+City: {{user.address.city}}
+</p>
+</div>

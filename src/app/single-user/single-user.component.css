@@ -1,0 +1,17 @@
+div {
+  margin-top: 150px;
+  margin-left: 40%;
+  justify-content: center;
+  text-align: center;
+  background-color:white;
+  color: lightslategrey;
+  width: 300px;
+  height: 200px;
+}
+
+li {
+  width: 75px;
+  height: 25px;
+  background-color: white;
+  color: lightslategrey;
+}

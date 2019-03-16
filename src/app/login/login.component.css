@@ -1,0 +1,43 @@
+.ng-invalid:not(Form).ng-touched:not(Form) {
+   border: 1px solid red;
+}
+
+div {
+  width: 500px;
+  margin: 10px;
+  text-align:center;
+  font-size: 25px;
+  color: white;
+}
+
+
+label {
+  display: block;
+}
+
+p {
+  color: lightslategrey;
+}
+button {
+width: 150px;
+height: 50px;
+margin: 5px;
+border-style: none;
+background-color: lightslategrey;
+font-family: verdana;
+font-size: 20px;
+color: white;
+outline-color:white;
+}
+
+input {
+  width: 310px;
+  height: 50px;
+  background-color: lightslategrey;
+  border-style: none;
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+  outline-color: white;
+}

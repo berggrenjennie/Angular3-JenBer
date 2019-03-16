@@ -1,0 +1,6 @@
+
+<!-- Elementet för namnen i listan, samt värdet för vilken färg som ska användas
+beroende på om toggleknappen är true eller false. -->
+<li >
+  <a [routerLink]="['/singleuser', user.id]" [style.color]="textColor ? 'white' : 'lightslategrey'">{{user.name}}</a>
+</li>

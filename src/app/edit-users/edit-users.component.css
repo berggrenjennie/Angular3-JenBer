@@ -1,0 +1,28 @@
+
+button {
+width: 150px;
+height: 50px;
+margin: 5px;
+/* border-radius: 7px; */
+border-style: none;
+background-color: lightslategrey;
+font-family: verdana;
+font-size: 20px;
+color: white;
+outline-color:white;
+}
+::placeholder {
+  color: white;
+}
+input {
+  width: 310px;
+  height: 50px;
+  background-color: lightslategrey;
+  /* border-radius: 7px; */
+  border-style: none;
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+  outline-color: white;
+}

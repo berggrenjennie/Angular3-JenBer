@@ -1,0 +1,19 @@
+
+<!-- Denna visas enbart om man tar bort route-guarden och om man klickar på
+dashboard utan att vara inloggad. -->
+<h1 *ngIf="!userStatus">Please log in to see the content</h1>
+
+
+<!-- Template! 'Föräldern' till 'barnen' user-list.component och edit-users.component
+[users]-skickar information till user-list och (addUser)+(removeUser) tar emot
+information från edit-users -->
+<div class="container" *ngIf="userStatus">
+  <div class="">
+    <app-user-list [users]="userList"></app-user-list>
+  </div>
+  <div >
+    <app-edit-users (addUser) = "addUserName($event)" (removeUser) = "removeUserName($event)"></app-edit-users>
+  </div>
+</div>
+
+<br>

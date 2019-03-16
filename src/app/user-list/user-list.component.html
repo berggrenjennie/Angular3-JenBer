@@ -1,0 +1,12 @@
+<!-- 'Föräldern' till user-list-item. Definierar värde och splittar arrayen till
+enskilda användare och definierar värdet på textColor. Skickas som input till
+user-list-item -->
+
+<ul class="">
+  <app-user-list-item *ngFor="let user of users"[user]="user" [textColor]="toggle_textColor" ></app-user-list-item>
+</ul>
+
+<!-- Toggleknapp med event som byter färg på användarna vid klick.  -->
+<div>
+  <button type="button" (click)="toggleColor()">Toggle Color</button>
+</div>
