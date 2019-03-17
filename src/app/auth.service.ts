@@ -39,7 +39,6 @@ export class AuthService {
     for (let i = 0; i < this.admins.length; i++) {
       if (Admin.email === this.admins[i].email && Admin.password === this.admins[i].password){
         localStorage.setItem('user', Admin.email);
-        console.log('This is inside IF statement Admin.email: ', Admin.email);
         break;
       }
     }
